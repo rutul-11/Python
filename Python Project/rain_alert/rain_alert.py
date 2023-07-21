@@ -10,8 +10,6 @@ OWM_Endpoint = "https://api.openweathermap.org/data/3.0/onecall"
 api_key = os.environ.get("OWM_API_KEY")
 account_sid = "AC1c433a7cf1a1609bdb8fb8b30c3fe2f5"
 auth_token = os.environ.get("AUTH_TOKEN")
-# api_key = 73e1a188f95aceb1b8c037fd73141464
-# auth_token = "ce62f177f0f483ebd4b3fb63a1c6c117"
 
 weather_params = {
     "lat": "YOUR LATITUDE",
